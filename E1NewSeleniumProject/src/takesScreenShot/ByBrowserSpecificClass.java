@@ -18,7 +18,7 @@ public class ByBrowserSpecificClass {
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-		driver.get("https://www.instagram.com/");
+		driver.get("https://www.bluestone.com/gold+coins/1-gram-24-kt-gold-coin~5920.html");
 		
 		File src = driver.getScreenshotAs(OutputType.FILE);
 		
